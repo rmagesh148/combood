@@ -40,7 +40,4 @@ To run it with Document dataset:
 - The processed dataset can also directly  be downloaded from this link https://lsu.box.com/s/x71r0eiagqgbqxei50ghbk9cldslxr34
 - The pretrained checkpoints of Resnet50 for document dataset can be found on this directory: /confidence-magesh/document classification/saved trained models/resnet50_checkpoints/resnet50_acc0.9_epoch40_on_319837_trainimages_load.ckpt"
 - The OOD datasets for document dataset can be found on this link: https://github.com/gxlarson/rvl-cdip-ood 
-- Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script
-
-
-
+- Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script .
