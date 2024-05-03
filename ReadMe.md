@@ -41,3 +41,15 @@ To run it with Document dataset:
 - The pretrained checkpoints of Resnet50 for document dataset can be found on this directory: /confidence-magesh/document classification/saved trained models/resnet50_checkpoints/resnet50_acc0.9_epoch40_on_319837_trainimages_load.ckpt"
 - The OOD datasets for document dataset can be found on this link: https://github.com/gxlarson/rvl-cdip-ood 
 - Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script .
+
+
+Citation:
+@inbook{doi:10.1137/1.9781611978032.74,
+	author = {Magesh Rajasekaran and Md Saiful Islam Sajol and Frej Berglind and Supratik Mukhopadhyay and Kamalika Das},
+	title = {COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification},
+	booktitle = {Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)},
+	pages = {643-651},
+	year = {2024},
+	doi = {10.1137/1.9781611978032.74},
+	URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.74}
+}
