@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Rajasekaran"
+  given-names: "Magesh"
+- family-names: "Islam Sajol"
+  given-names: "Md Saiful"
+- family-names: "Berglnd"
+  given-names: "Frej"
+- family-names: "Mukhopadhyay"
+  given-names: "Supratik"
+- family-names: "Kamalika"
+  given-names: "Das"
+title: "COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification"
+booktitle: "Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)"
+version: 1.0.0
+pages: 643-651
+doi: 10.1137/1.9781611978032.74
+date-released: 2024-04-11
+url: "https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.74"
