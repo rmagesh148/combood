@@ -1,3 +1,5 @@
+# # Method
+
 - The 4 most important files for this paper are test_ood.py, utils.py, data.py, confidenciator.py   
 
 - Download the OpenOOD (Git repo: https://github.com/Jingkang50/OpenOOD/tree/main)  datasets  and checkpoints from this link:
@@ -11,7 +13,7 @@
 
 - Similarly change the directory of "OpenOOD" folder inside data.py (/confidence-magesh/data.py) script.  
 
-To run it with Cifar10:
+# # Cifar10:
 
 - Provide necessary directories of pretrained OpenOOD checkpoint models inside the script: /confidence-magesh/OpenOOD/openood_id_ood_and_model_cifar10.py
 
@@ -33,7 +35,7 @@ You need to provide directory of the OpenOOD  datasets and checkpoints inside:
 	for document: /confidence-magesh/results/document_resnet50_docu/knn/	
 
 
-To run it with Document dataset:
+# # Document dataset:
 
 - Download the dataset from this link https://adamharley.com/rvl-cdip/ 
 - Preprocess the dataset  folder directories following this link https://github.com/MdSaifulIslamSajol/mobilenet_image_classification_with_document_dataset/blob/main/make_classwise_subfolders_rvl_cdip.py 
@@ -43,7 +45,17 @@ To run it with Document dataset:
 - Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script .
 
 
-Citation:
----
-bibliography: biblography.bib
----
+## Citation
+If you find our repository useful for your research, please consider citing our paper:
+```bibtex
+# v1.0
+@Book{magesh2024combood,
+	author = {Magesh Rajasekaran and Md Saiful Islam Sajol and Frej Berglind and Supratik Mukhopadhyay and Kamalika Das},
+	title = {COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification},
+	booktitle = {Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)},
+	pages = {643-651},
+	year = {2024},
+	doi = {10.1137/1.9781611978032.74},
+	URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.74}
+}
+```
