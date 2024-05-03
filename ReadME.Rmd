@@ -4,3 +4,5 @@ output:
     variant: markdown_github
 bibliography: bibliography.bib
 ---
+
+[@magesh2024]
