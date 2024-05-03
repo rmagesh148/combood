@@ -43,9 +43,7 @@ To run it with Document dataset:
 - Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script .
 
 
-bibliography: bibliography.bib
-
 Citation:
 ---
-
+bibliography: biblography.bib
 ---
