@@ -2,5 +2,5 @@
 output:
   md_document:
     variant: markdown_github
-bibliography: biblography.bib
+bibliography: bibliography.bib
 ---
