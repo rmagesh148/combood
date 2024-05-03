@@ -43,13 +43,9 @@ To run it with Document dataset:
 - Now provide directory of the OpenOOD  datasets and checkpoints inside: confidence-magesh/document_id_ood_n_model_loader.py script .
 
 
+bibliography: bibliography.bib
+
 Citation:
-@inbook{doi:10.1137/1.9781611978032.74,
-	author = {Magesh Rajasekaran and Md Saiful Islam Sajol and Frej Berglind and Supratik Mukhopadhyay and Kamalika Das},
-	title = {COMBOOD: A Semiparametric Approach for Detecting Out-of-distribution Data for Image Classification},
-	booktitle = {Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)},
-	pages = {643-651},
-	year = {2024},
-	doi = {10.1137/1.9781611978032.74},
-	URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611978032.74}
-}
+---
+
+---
